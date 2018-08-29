@@ -11,7 +11,6 @@ public class A5ReorganizingBST<K extends Comparable<K>, V> {
 	public A5ReorganizingBST(){
 		SimplerBST<K,V> bstree = new SimplerBST<K,V>();
 	}
-
 	public void get(K key) {
 		bstree.get(key);
 	}
@@ -21,7 +20,6 @@ public class A5ReorganizingBST<K extends Comparable<K>, V> {
 		if (!bstree.contains(key)) { 
 			size++;
 		}
-		
 		bstree.put(key, Value);
 
 		if (size % 100 == 0) {
@@ -35,7 +33,6 @@ public class A5ReorganizingBST<K extends Comparable<K>, V> {
 			size--;
 			bstree.delete(key);
 		}
-		
 		if (size % 100 == 0) {
 			reorganize();
 	}
