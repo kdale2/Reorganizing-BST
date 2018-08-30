@@ -1,10 +1,6 @@
 package assignment5;
-
 import java.util.Arrays;
 import stdlib.*;
-import week1examples.*;
-import week3examples.*;
-
 
 public class A5TestReorganizingBST {
 
