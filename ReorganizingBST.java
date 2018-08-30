@@ -1,8 +1,6 @@
 package assignment5;
 import java.util.ArrayList;
-import week1examples.*;
 import java.util.List;
-import algs13.Queue;
 
 public class A5ReorganizingBST<K extends Comparable<K>, V> {
 	private SimplerBST<K, V> bstree = new SimplerBST<K,V>();
